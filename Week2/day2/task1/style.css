@@ -1,0 +1,18 @@
+
+div{
+    width: 500px;
+    margin: auto;
+}
+button{
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+button:nth-of-type(2){
+    left: 250px;
+}
+

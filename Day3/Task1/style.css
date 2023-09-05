@@ -1,0 +1,27 @@
+.box {
+  height: 70px;
+  width: 100px;
+  display: inline-block;
+  background-color: #eee;
+  margin-left: 20px;
+  line-height: 70px;
+  text-align: center;
+  font-size: 35px;
+}
+p {
+  display: inline-block;
+  font-size: 35px;
+  margin-left: 20px;
+}
+button {
+  height: 50px;
+  width: 100px;
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 16px;
+}
+button:hover {
+  background-color: blueviolet;
+  padding: 5px;
+  color: #fff;
+}

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css//bootstrap.min.css" />
+    <script
+      src="https://kit.fontawesome.com/160dcc5c09.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="d-flex justify-content-between align-items-center sticky">
+      <div class="nav-icons d-flex">
+        <div class="logo">
+          <a href="login.html">
+            <i class="fa-solid fa-house"></i>
+            <span>Login</span>
+          </a>
+        </div>
+
+        <a href=""><i class="fa-solid fa-earth-asia"></i></a>
+        <a href=""><i class="fa-solid fa-user"></i></a>
+        <a href=""> <i class="fa-solid fa-envelope"></i></a>
+        <a href=""> <i class="fa-solid fa-bell"></i></a>
+      </div>
+      <div class="nav-img">
+        <a href=""
+          ><img class="rounded-circle" src="images/char1.jpg" alt=""
+        /></a>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="profile">
+            <h3>My Profile</h3>
+            <img class="rounded-circle" src="./images/img2.jpg" alt="" />
+            <div class="line"></div>
+            <div class="profile-info">
+              <i class="fa-solid fa-pen"></i><span>Designer,UI</span>
+              <br />
+              <i class="fa-solid fa-house"></i><span>London ,UK</span>
+              <br />
+              <i class="fa-solid fa-cake-candles"></i><span>April 1,1988</span>
+            </div>
+          </div>
+          <div class="groups">
+            <i class="fa-solid fa-power-off"></i><span>My Groups</span>
+            <br /><br />
+            <i class="fa-regular fa-calendar"></i><span>My Events</span>
+            <br /><br />
+            <i class="fa-solid fa-user-group"></i><span>Photos</span>
+          </div>
+          <div class="interests">
+            <h4>Interests</h4>
+
+            <span class="a">News</span>
+            <span class="a">W3schools</span>
+            <span class="a">Label</span>
+            <span class="b">Games</span>
+            <br />
+
+            <span class="b">Friends</span>
+            <span class="b">Games</span>
+            <span class="c">Friends</span>
+            <span class="d">Food</span>
+
+            <br />
+
+            <span class="e">Design</span> <span class="g">Art</span>
+            <span>Photos</span>
+          </div>
+          <div id="hey" class="hey">
+            <div
+              class="hey-mark d-flex justify-content-between align-items-center"
+            >
+              <h4>Hey!</h4>
+              <i onclick="display()" class="fa-solid fa-xmark"></i>
+            </div>
+
+            <p>
+              People are Looking at your Profile.Find out<br />
+              who
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="user-post">
+            <p>Social media template by w3.css</p>
+            <input type="text" placeholder="Status:" />
+            <br />
+            <button type="submit">
+              <i class="fa-solid fa-pen"></i><span>Post</span>
+            </button>
+          </div>
+          <div class="post11">
+            <div
+              class="post1 d-flex justify-content-between align-items-center"
+            >
+              <div>
+                <img class="rounded-circle" src="./images/img3.jpg" alt="" />
+                <span>John Doe</span>
+              </div>
+
+              <div>
+                <p>1 min</p>
+              </div>
+            </div>
+
+            <div class="line"></div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <div class="post-imgs d-flex justify-content-evenly mt-2">
+              <img src="./images/ph1.jpg" alt="" />
+              <img src="./images/ph1.jpg" alt="" />
+            </div>
+
+            <button type="submit">
+              <i class="fa-regular fa-thumbs-up"></i><span>Like</span>
+            </button>
+            <button type="submit">
+              <i class="fa-solid fa-comment"></i><span>Comment</span>
+            </button>
+          </div>
+          <div class="post2">
+            <div
+              class="post1 d-flex justify-content-between align-items-center"
+            >
+              <div>
+                <img class="rounded-circle" src="images/img2.jpg" alt="" />
+                <span>Jane Doe</span>
+              </div>
+
+              <div>
+                <p>16 min</p>
+              </div>
+            </div>
+            <div class="line"></div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <button type="submit">
+              <i class="fa-regular fa-thumbs-up"></i><span>Like</span>
+            </button>
+            <button type="submit">
+              <i class="fa-solid fa-comment"></i><span>Comment</span>
+            </button>
+          </div>
+          <div class="post3 mb-5">
+            <div
+              class="post1 d-flex justify-content-between align-items-center"
+            >
+              <div>
+                <img class="rounded-circle" src="./images/char1.jpg" alt="" />
+                <span>Angie Jane</span>
+              </div>
+
+              <div>
+                <p>32 min</p>
+              </div>
+            </div>
+            <div class="line"></div>
+            <p class="mb-4">Have you seen this?</p>
+            <img src="./images/ph2.jpg" alt="" />
+            <p class="mt-4">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <button type="submit" class="mt-4">
+              <i class="fa-regular fa-thumbs-up"></i><span>Like</span>
+            </button>
+            <button type="submit" class="mt-4">
+              <i class="fa-solid fa-comment"></i><span>Comment</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="box">
+            <p>Upcoming Events:</p>
+            <img src="./images/ph2.jpg" alt="" />
+            <p class="mt-4">Holiday</p>
+            <p class="time">Friday 15:00</p>
+            <button class="info mt-3">Info</button>
+          </div>
+          <div class="box">
+            <p>Friend Request</p>
+            <img src="./images/img2.jpg" />
+            <p class="mt-4">Jane Doe</p>
+            <div
+              class="btn-group w-100"
+              role="group"
+              aria-label="Basic mixed styles example "
+            >
+              <button type="button" class="btn">
+                <i class="fa fa-check"></i>
+              </button>
+              <button type="button" class="btn btn-warning">
+                <i class="fa fa-remove"></i>
+              </button>
+            </div>
+          </div>
+          <div class="box text-center">
+            <p>ADS</p>
+          </div>
+          <div class="box p-5">
+            <i
+              class="fa-solid fa-bug"
+              style="
+                font-size: 25px;
+                position: relative;
+                left: 50%;
+                transform: translateX(-50%);
+              "
+            ></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <footer class="col-12">
+        <p>Footer</p>
+      </footer>
+      <div class="power">
+        <p>Powerd by <a href="" style="font-size: 13px">W3.css</a></p>
+      </div>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="js/scrpt.js"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+
+p{
+    margin: 50px;
+}
+input{
+    width: 50%;
+    margin: 20px;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    display: block;
+    
+}
+
+.buttons{
+    width: 50%;
+    margin: 50px;
+
+}
+button{
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.last{
+    margin-left: 50px;
+}

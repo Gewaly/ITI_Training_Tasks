@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#add {
+    background-color: green;
+    font-size: 35px;
+  color: #fff;
+  padding: 15px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  cursor: pointer;
+  margin: 30px 40px;
+}
+#add:hover {
+  background-color: rgb(15, 81, 15);
+}
+#remove {
+  background-color: red;
+  font-size: 35px;
+  color: #fff;
+  margin-top: 30px;
+  padding: 15px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  cursor: pointer;
+}
+#remove:hover {
+  background-color: rgb(102, 16, 16);
+}

@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Oswald, sans-serif;
+  background-image: linear-gradient(
+      rgba(60, 60, 66, 0.5),
+      rgba(43, 43, 37, 0.5)
+    ),
+    url(fdrt-min.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 900;
+  font-size: 50px;
+  color: #fff;
+}
+p {
+  width: 720px;
+  text-align: center;
+  margin: 20px auto;
+  font-style: italic;
+}
+table {
+  width: 70%;
+  margin: 20px auto;
+}
+th,
+td {
+  padding: 20px;
+}
+table,
+th,
+td {
+  border: 1px solid #404040;
+  border-collapse: collapse;
+  text-align: center;
+}
+.black {
+  background-color: #101010;
+}
+.wblack {
+  background-color: #333333;
+}
+.first {
+  background-color: #e68387;
+  font-size: 30px;
+  color: #fff;
+}
+.second {
+  background-color: #db545a;
+  font-size: 30px;
+  color: #fff;
+}
+.third {
+  background-color: #d02341;
+  font-size: 30px;
+  color: #fff;
+}
+
+button {
+  background-color: #e83d44;
+  color: #eee;
+  width: 120px;
+  cursor: pointer;
+  padding: 10px;
+}
+button:hover {
+  background-color: #e68387;
+  box-shadow: 5px 5px 25px #888888;
+}
+a {
+  color: #fff;
+}
+a:hover {
+  color: red;
+
+  border-color: red;
+}

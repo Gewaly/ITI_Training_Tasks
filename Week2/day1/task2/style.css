@@ -1,0 +1,27 @@
+
+
+
+p{
+    text-align: center;
+    transform: translateY(30px);
+}
+div{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+    margin: 50px;
+}
+.sec{
+    width: 400px;
+    height: 400px;
+}

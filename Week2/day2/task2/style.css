@@ -1,0 +1,13 @@
+
+button{
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 30px;
+}
+
+input, label{
+    margin: 40px;
+    cursor: pointer;
+}

@@ -1,0 +1,15 @@
+body {
+  background-color: black;
+  color: white;
+  margin-right: 10px;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+h2 {
+  margin: 0;
+}
+span {
+  color: green;
+}

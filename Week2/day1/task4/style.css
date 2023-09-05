@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
+    gap: 20px;
+    
+}
+
+.container div{
+    border: 3px solid rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 10px;
+}
+.container div:hover{
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+.container div img{
+    width: 100%;
+    height: 80%;
+}
+.container div p{
+    text-align: center;
+    margin: 10px;
+}
+

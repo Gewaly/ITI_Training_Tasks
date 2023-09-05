@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Login Form</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <form id="loginForm" class="needs-validation" novalidate>
+        <div class="mb-3">
+          <label for="username" class="form-label">Username</label>
+          <input
+            type="text"
+            class="form-control"
+            id="username"
+            name="username"
+            required
+          />
+          <div class="invalid-feedback">Please enter a username.</div>
+          <div class="valid-feedback">Accepted !</div>
+          <div id="lengthAlert" class="alert alert-danger d-none" role="alert">
+            Name should be more than 5 letters.
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="alert"
+              aria-label="Close"
+            ></button>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="password"
+            name="password"
+            required
+          />
+          <div class="invalid-feedback">Please enter a password.</div>
+          <div class="valid-feedback">Good !</div>
+        </div>
+        <button type="submit" class="btn btn-primary">Login</button>
+      </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scrpt.js">
+    </script>
+  </body>
+</html>

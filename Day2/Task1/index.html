@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>" CSS Attribute Selectors "</h1>
+    <h2>1-[attribute=value]:</h2>
+    <p>The links with a target attribute gets a blanchedalmond background:</p>
+    <a href="#">ITI Trainig</a>
+    <a href="" target="_blank">ITI Trainig</a>
+    <a href="" target="_top">ITI Trainig</a>
+    <hr />
+    <h2>2-[attribute~=value]:</h2>
+    <p>
+      All divs with the class attribute containing the word "one" get a blue
+      background and a white color.
+    </p>
+    <div class="parent">
+      <div class="one two three">1</div>
+      <div class="two three">2</div>
+      <div class="one three">3</div>
+    </div>
+    <hr />
+    <h2>3-[attribute|=value]:</h2>
+    <p>
+      This selector matches elements that have the specified attribute with a
+      value that begins with the given value,
+    </p>
+    <div class="parent">
+      <div class="one-two-three">1</div>
+      <div class="two-three">2</div>
+      <div class="one-three">3</div>
+    </div>
+    <hr />
+    <h2>4-[attribute^=value]:</h2>
+    <p>
+      This selector matches elements that have the specified attribute with a
+      value that begins with the given value
+    </p>
+    <div class="parent">
+      <div class="onetwo">1</div>
+      <div class="one-two">2</div>
+      <div class="one-three">3</div>
+    </div>
+    <hr />
+  </body>
+</html>

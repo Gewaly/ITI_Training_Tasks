@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --main-color: #2b343d;
+}
+body {
+  background-color: #ccc;
+  color: var(--main-color);
+}
+.content {
+  width: 80%;
+  background-color: #fff;
+  margin: 50px auto;
+}
+.content .name {
+  padding-top: 10px;
+  margin-left: 40px;
+}
+
+.content .name h1 {
+  font-size: 40px;
+}
+.content .contact {
+  background-color: var(--main-color);
+  color: #fff;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 150px;
+}
+.content .contact .box {
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.content .contact .box i {
+  margin-right: 10px;
+}
+.content .contact .box a {
+  color: #fff;
+  text-decoration: none;
+}
+.final {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.final .edu {
+  margin-top: 50px;
+  margin-left: 40px;
+  position: relative;
+}
+.final .edu::before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  left: -41px;
+  top: 45%;
+  /* margin-top: -9px; */
+  height: 0px;
+  border-bottom: 3px solid black;
+}
+
+.final .edu span {
+  font-style: italic;
+}
+.final .right {
+  margin-left: 350px;
+  margin-bottom: 90px;
+}
+.final .right .skills {
+  margin-top: 50px;
+}
+.final .right .skills .courses {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  margin-right: 80px;
+  gap: 10px;
+  row-gap: 10px;
+}
+.final .right .skills .courses div {
+  background-color: #95999e;
+  display: table;
+  color: #fff;
+  border-radius: 5px;
+  padding: 8px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.final .right .certificate {
+  margin-top: 50px;
+}
+
+.final .right .languages {
+  margin-top: 50px;
+}
+.final .right .languages h6 {
+  font-size: 15px;
+}
+.final .right .interests {
+  margin-top: 50px;
+}
+.final .right .interests .hobbies {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  margin-right: 80px;
+  gap: 10px;
+  row-gap: 10px;
+}
+.final .right .interests .hobbies div {
+  border: 1px solid black;
+  display: table;
+  color: black;
+  border-radius: 5px;
+  padding: 8px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}

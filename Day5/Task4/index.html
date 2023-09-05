@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Customer Service survey</h1>
+    <p>Please take a moment to fill out this survey</p>
+    <hr />
+    <h2>Overall satisfaction of service</h2>
+    <table>
+      <tr>
+        <td class="noborder"></td>
+        <td class="maincolor">Very satisfied</td>
+        <td class="maincolor">satisfied</td>
+        <td class="maincolor">Neutural</td>
+        <td class="maincolor">Unsatisfied</td>
+        <td class="maincolor">Very unsatisfied</td>
+      </tr>
+
+      <tr>
+        <td class="maincolor">Friendliness</td>
+        <td><input type="radio" name="a" /></td>
+        <td><input type="radio" name="a" /></td>
+        <td><input type="radio" name="a" /></td>
+        <td><input type="radio" name="a" /></td>
+        <td><input type="radio" name="a" /></td>
+      </tr>
+
+      <tr>
+        <td class="maincolor">knowledge</td>
+        <td><input type="radio" name="b" /></td>
+        <td><input type="radio" name="b" /></td>
+        <td><input type="radio" name="b" /></td>
+        <td><input type="radio" name="b" /></td>
+        <td><input type="radio" name="b" /></td>
+      </tr>
+
+      <tr>
+        <td class="maincolor">Quickness</td>
+        <td><input type="radio" name="c" /></td>
+        <td><input type="radio" name="c" /></td>
+        <td><input type="radio" name="c" /></td>
+        <td><input type="radio" name="c" /></td>
+        <td><input type="radio" name="c" /></td>
+      </tr>
+    </table>
+    <h2>Would you use our customer service in the future?</h2>
+    <div class="inp">
+      <input type="radio" name="options" value="option1" /><span>Yes</span>
+      <br />
+      <input type="radio" name="options" value="option2" /><span>No</span>
+      <br />
+      <input type="radio" name="options" value="option2" /><span>Maybe </span>
+      <br />
+    </div>
+    <h2>How can we improve our service?</h2>
+    <div class="type">
+      <textarea>Type Here...</textarea>
+    </div>
+
+    <button id="btn" onclick="fun()">Submit Survey</button>
+    <script src="script.js"></script>
+  </body>
+</html>

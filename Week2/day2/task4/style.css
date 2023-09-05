@@ -1,0 +1,50 @@
+
+img{
+    width: 200px;
+    cursor: pointer;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+.div1{
+    position: relative;
+}
+.div1:hover img{
+    animation-name: messi;
+}
+
+.div2:hover img{
+    animation-name: tiger;
+}
+@keyframes messi{
+    25%{
+        transform: rotate(360deg);
+        margin: 0 25%;
+    }
+    50%{
+        transform: rotate(0deg);
+        margin: 0 50%;
+    }
+    100%{
+        margin: 0;
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes tiger{
+    0%{
+        transform: rotateY(0deg);
+    }
+    5%{
+        transform: translateX(0px) rotateY(180deg);
+    }
+    50%{
+        transform: translateX(1500px) rotateY(180deg);
+    }
+    55%{
+        transform: translateX(1500px) rotateY(0deg);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
